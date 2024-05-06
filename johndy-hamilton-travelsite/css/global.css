@@ -1,0 +1,146 @@
+/*css global  */
+* {
+    font-family: Verdana;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
+}
+
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.logo a {
+    color: #335576;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1.25rem;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: #335576;
+    text-decoration: none;
+    padding: .625rem 1.25rem;
+    display: block;
+}
+
+.menu li a.active {
+    border-bottom: .125rem solid #DB7A4E;
+}
+
+.footer {
+    background-color: #FEFAF5;
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h3 {
+    color: #335576;
+    margin-bottom: .625rem;
+}
+
+.footer-text {
+    color: #335576;
+    margin-top: .125rem;
+}
+
+.footer-texts-color {
+    text-transform: uppercase;
+    color: #DB7A4E;
+    font-size: .625rem;
+    margin-top: 2.8125rem;
+
+}
+
+.footer-texts-sc {
+    text-transform: uppercase;
+    color: #DB7A4E;
+    font-size: .625rem;
+    padding-top: 2.5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin: 0 .625rem;
+}
+
+.footer-links ul li a {
+    color: #335576;
+    text-decoration: none;
+}
+
+
+.footer__container {
+    color: #335576;
+    font-size: .625rem;
+}
+
+.contact-section {
+    display: flex;
+}
+.hours{
+    width: 31.25rem;
+}
+
+.hours-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.day-info {
+    
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.hours-section {
+    display: flex;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.icons{
+    height: .625rem;
+}
+.social {
+    padding-bottom: 3.6875rem;
+    ;
+}
+
+.social-icons a {
+    margin: 0 .625rem;
+}
+
+.social-icons img {
+    height: 1.875rem;
+}

@@ -1,0 +1,117 @@
+
+/* Styles for Hero Section */
+.hero {
+    background-color: #FEFAF5;
+    padding: 6.25rem 0;
+    text-align: center;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .text {
+    flex: 1;
+    margin-right: 1.25rem;
+    text-align: left;
+    /* Align text to the left */
+}
+
+.hero .text h1 {
+    color: #335576;
+}
+
+.hero .text .slogan {
+    color: #335576;
+}
+
+.hero .text .btn {
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: .625rem 1.25rem;
+    border-radius: .3125rem;
+    margin-top: 1.25rem;
+    display: inline-block;
+}
+
+.hero .image {
+    flex: 1;
+}
+
+.hero .image img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container's width */
+}
+
+/* Styles for Recommendations Section */
+.recommendations {
+    padding: 3.125rem 0;
+    text-align: center;
+}
+
+.recommendations-title {
+    display: flex;
+    color: #335576;
+    margin-left: 2.375rem;
+}
+
+.destination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.destination-card {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    width: 18rem;
+    height: 25rem;
+    margin: 1.25rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.2);
+    border-radius: .3125rem;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2);
+}
+
+.destination-card--hawaii {
+    background-image: url("../assets/Images/hawaii.jpg");
+    background-size: cover;
+
+}
+
+.destination-card--iceland {
+    background-image: url("../assets/Images/iceland.jpg");
+    background-size: cover;
+}
+
+.destination-card--Greece {
+    background-image: url("../assets/Images/greece.jpg");
+    background-size: cover;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: .3125rem .3125rem 0 0;
+}
+
+.destination-name {
+    display: flexbox;
+    color: #FFFFFF;
+    padding: .3125rem .625rem;
+    border-top-left-radius: .3125rem;
+    font-weight: bold;
+}
+
+
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    flex-wrap: wrap;
+}

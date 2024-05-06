@@ -1,0 +1,156 @@
+/* Styles for Destination Pages */
+.destination-page {
+    text-align: left;
+}
+
+.destination-page h1 {
+    color: white;
+    font-size: 5.1875rem;
+    font-weight: bold;
+    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, 0.6);
+    letter-spacing: .0625rem;
+    margin-right: 53.75rem;
+}
+
+.destination-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.itinerary h2 {
+    color: #335576;
+}
+
+.itinerary-day {
+    margin-top: 1.25rem;
+    position: relative;
+}
+
+.itinerary-day h3 {
+    color: #000;
+    text-align: center;
+}
+
+.itinerary-day ul li {
+    font-size: 1.0625rem;
+    background-color: #FEFAF5;
+    padding: .625rem;
+    display: block;
+    font-size: 1.25rem;
+    text-align: center;
+    list-style: none;
+    font-weight: normal;
+    margin-top: 1.625rem;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+    width: 18rem;
+    height: 25rem;
+    margin: 1.25rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.2);
+    border-radius: .3125rem;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    align-content: center;
+}
+
+.itinerary-day-container {
+    display: flex;
+}
+
+.days h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: .125rem;
+    background-color: #000;
+    
+}
+
+
+.itinerary-day h3.underline {
+    position: relative;
+
+}
+
+.itinerary-day h3.underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.125rem;
+    height: .125rem;
+    background-color: black;
+ 
+}
+
+.itinerary-day .card {
+    display: flex;
+    background: #fff;
+    padding: 1.25rem;
+    margin: .625rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.itinerary-day .card ul {
+    list-style: none;
+    padding: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+}
+
+
+.itinerary-day .card ul li:last-child {
+    border-bottom: none;
+}
+
+.h3 {
+    margin-top: 0;
+    border-bottom: .125rem solid black
+}
+
+.destination-page__iceland {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/Images/iceland.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6.25rem 0;
+}
+
+.destination-page__greece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/Images/greece.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6.25rem 0;
+}
+
+.destination-page__hawaii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/Images/hawaii.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6.25rem 0;
+}
